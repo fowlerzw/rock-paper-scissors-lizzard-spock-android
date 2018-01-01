@@ -20,6 +20,8 @@ public class OnePlayerGameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one_player_game);
 
+
+
         //Finds views with their ids
         TextView choseRockButton = (TextView) findViewById(R.id.rock_button_player);
         TextView chosePaperButton = (TextView) findViewById(R.id.paper_button_player);

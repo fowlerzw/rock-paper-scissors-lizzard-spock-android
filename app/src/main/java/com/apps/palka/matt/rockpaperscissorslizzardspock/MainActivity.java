@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         gameRulesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "in the making", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), RulesActivity.class);
+                startActivity(intent);
             }
         });
 

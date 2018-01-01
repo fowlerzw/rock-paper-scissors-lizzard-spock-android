@@ -9,14 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="Rock Paper Scissors Lizard Spock">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OnePlayerGameActivity"></activity>
+        <activity
+            android:name=".OnePlayerGameActivity"
+            android:label="One Player Game"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RulesActivity"
+            android:label="Game Rules"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
