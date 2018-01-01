@@ -26,6 +26,7 @@
             android:name=".RulesActivity"
             android:label="Game Rules"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".TwoPlayersActivity"></activity>
     </application>
 
 </manifest>

@@ -1,7 +1,9 @@
 package com.apps.palka.matt.rockpaperscissorslizzardspock;
 
+import android.app.Application;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -131,6 +133,7 @@ public class GameLogic {
             switch (computer) {
                 case 1: //ROCK
                     mPlayerStat ++;
+                
                     break;
                 case 2: //PAPER
 
