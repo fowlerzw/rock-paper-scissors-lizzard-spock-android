@@ -133,7 +133,6 @@ public class GameLogic {
             switch (computer) {
                 case 1: //ROCK
                     mPlayerStat ++;
-                
                     break;
                 case 2: //PAPER
 

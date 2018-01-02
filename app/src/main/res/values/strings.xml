@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RockPaperScissorsLizzardSpock</string>
+    <string name="app_name">Rock Paper Scissors Lizard Spock</string>
     <string name="one_player">One Player</string>
     <string name="two_players">Two Players</string>
     <string name="game_rules">Game Rules</string>
