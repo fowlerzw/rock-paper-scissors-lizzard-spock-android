@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RockPaperScissorsLizzardSpock.iml" filepath="$PROJECT_DIR$/RockPaperScissorsLizzardSpock.iml" />
+      <module fileurl="file://C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\RockPaperScissorsLizzardSpock.iml" filepath="C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\RockPaperScissorsLizzardSpock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rock-paper-scissors-lizzard-spock-android.iml" filepath="$PROJECT_DIR$/.idea/rock-paper-scissors-lizzard-spock-android.iml" />
     </modules>
   </component>
 </project>
