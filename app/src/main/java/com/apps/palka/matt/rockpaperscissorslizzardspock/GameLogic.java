@@ -23,13 +23,13 @@ public class GameLogic {
      * 5 = spock
      */
     private int mPlayerChoice;
-    private String mOpponentChoice;
+    private int mOpponentChoice;
 
-    private String mRock1 = "Rock";
-    private String mPaper2 = "Paper";
-    private String mScissors3 = "Scissors";
-    private String mLizard4 = "Lizard";
-    private String mSpock5 = "Spock";
+    private int mRock1 = R.drawable.rock;
+    private int mPaper2 = R.drawable.paper;
+    private int mScissors3 = R.drawable.scissors;
+    private int mLizard4 = R.drawable.lizard;
+    private int mSpock5 = R.drawable.spock;
 
     private int mPlayerStat = 0;
     private int mOpponentStat = 0;
@@ -96,7 +96,7 @@ public class GameLogic {
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public String getOpponentChoice() {
+    public int getOpponentChoice() {
         computerChoice();
         return mOpponentChoice;
     }

@@ -1,10 +1,12 @@
 package com.apps.palka.matt.rockpaperscissorslizzardspock;
 
+import android.media.Image;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,15 +25,15 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
 
         //Finds views with their ids
-        TextView choseRockButton = (TextView) findViewById(R.id.rock_button_player);
-        TextView chosePaperButton = (TextView) findViewById(R.id.paper_button_player);
-        TextView choseScissorsButton = (TextView) findViewById(R.id.scissors_button_player);
-        TextView choseLizardButton = (TextView) findViewById(R.id.lizard_button_player);
-        TextView choseSpockButton = (TextView) findViewById(R.id.spock_button_player);
+        ImageView choseRockButton = (ImageView) findViewById(R.id.rock_button_player);
+        ImageView chosePaperButton = (ImageView) findViewById(R.id.paper_button_player);
+        ImageView choseScissorsButton = (ImageView) findViewById(R.id.scissors_button_player);
+        ImageView choseLizardButton = (ImageView) findViewById(R.id.lizard_button_player);
+        ImageView choseSpockButton = (ImageView) findViewById(R.id.spock_button_player);
         final TextView playerScore = (TextView) findViewById(player_score);
         final TextView opponentScore = (TextView) findViewById(R.id.computer_score);
 
-        final TextView opponentPickView = (TextView) findViewById(R.id.opponent_pick);
+        final ImageView opponentPickView = (ImageView) findViewById(R.id.opponent_pick);
 
         final GameLogic gameLogic = new GameLogic();
 
@@ -42,7 +44,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(1);
-                opponentPickView.setText(gameLogic.getOpponentChoice());
+                opponentPickView.setImageResource(gameLogic.getOpponentChoice());
                 gameLogic.gameResult();
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
@@ -54,7 +56,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(2);
-                opponentPickView.setText(gameLogic.getOpponentChoice());
+                opponentPickView.setImageResource(gameLogic.getOpponentChoice());
                 gameLogic.gameResult();
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
@@ -67,7 +69,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(3);
-                opponentPickView.setText(gameLogic.getOpponentChoice());
+                opponentPickView.setImageResource(gameLogic.getOpponentChoice());
                 gameLogic.gameResult();
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
@@ -79,7 +81,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(4);
-                opponentPickView.setText(gameLogic.getOpponentChoice());
+                opponentPickView.setImageResource(gameLogic.getOpponentChoice());
                 gameLogic.gameResult();
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
@@ -91,7 +93,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(5);
-                opponentPickView.setText(gameLogic.getOpponentChoice());
+                opponentPickView.setImageResource(gameLogic.getOpponentChoice());
                 gameLogic.gameResult();
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
