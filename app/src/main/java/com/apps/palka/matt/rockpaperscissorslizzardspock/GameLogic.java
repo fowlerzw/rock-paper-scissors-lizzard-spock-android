@@ -25,11 +25,11 @@ public class GameLogic {
     private int mPlayerChoice;
     private int mOpponentChoice;
 
-    private int mRock1 = R.drawable.rock;
-    private int mPaper2 = R.drawable.paper;
-    private int mScissors3 = R.drawable.scissors;
-    private int mLizard4 = R.drawable.lizard;
-    private int mSpock5 = R.drawable.spock;
+    private int mRock1 = R.drawable.ic_stone;
+    private int mPaper2 = R.drawable.ic_paper;
+    private int mScissors3 = R.drawable.ic_scissors;
+    private int mLizard4 = R.drawable.ic_lizard;
+    private int mSpock5 = R.drawable.ic_spock;
 
     private int mPlayerStat = 0;
     private int mOpponentStat = 0;

@@ -9,12 +9,12 @@
     tools:context="com.apps.palka.matt.rockpaperscissorslizzardspock.OnePlayerGameActivity">
 
 
-    <TextView
+    <ImageView
         android:id="@+id/opponent_pick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="/?"
+        app:srcCompat="@drawable/ic_kolo"
         android:textSize="36sp"
         app:layout_constraintEnd_toStartOf="@+id/rock_button_player"
         app:layout_constraintHorizontal_bias="0.5"
