@@ -1,20 +1,18 @@
 package com.apps.palka.matt.rockpaperscissorslizzardspock;
 
-import android.media.Image;
+
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import android.widget.Button;
+
 import android.widget.ImageButton;
 
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.w3c.dom.Text;
 
 import static com.apps.palka.matt.rockpaperscissorslizzardspock.R.id.player_score;
 
@@ -31,7 +29,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
         //Finds views with their ids
 
         final TextView gameResult = (TextView) findViewById(R.id.game_result_textView);
-        TextView playAgain = (TextView) findViewById(R.id.play_again_button);
+        final TextView playAgain = (TextView) findViewById(R.id.play_again_button);
 
         final ImageButton choseRockButton = (ImageButton) findViewById(R.id.rock_button_player);
         final ImageButton chosePaperButton = (ImageButton) findViewById(R.id.paper_button_player);
@@ -46,18 +44,25 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
         final GameLogic gameLogic = new GameLogic();
 
+        //Ensures that the game starts with "Your Turn" text in game result view and play again button
+        //is hidden
+        gameResult.setText(R.string.your_turn);
+        playAgain.setVisibility(View.INVISIBLE);
+
         /**
-         * TODO: add functionality to deactivate play button , change win / loose / your turn text
+         * Sets the winner text to "YOUR TURN" and makes playbutton clickable after play again button
+         * is clicked
          */
         playAgain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                choseLizardButton.setActivated(true);
-                chosePaperButton.setActivated(true);
-                choseRockButton.setActivated(true);
-                choseScissorsButton.setActivated(true);
-                choseSpockButton.setActivated(true);
-                gameResult.setText("YOUR TURN");
+                choseLizardButton.setEnabled(true);
+                chosePaperButton.setEnabled(true);
+                choseRockButton.setEnabled(true);
+                choseScissorsButton.setEnabled(true);
+                choseSpockButton.setEnabled(true);
+                gameResult.setText(R.string.your_turn);
+                playAgain.setVisibility(View.INVISIBLE);
             }
         });
 
@@ -67,7 +72,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(1);
                 opponentPickView.setImageResource(gameLogic.getOpponentChoice());
-                gameLogic.gameResult();
+                gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
             }
@@ -79,7 +84,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(2);
                 opponentPickView.setImageResource(gameLogic.getOpponentChoice());
-                gameLogic.gameResult();
+                gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
 
@@ -92,7 +97,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(3);
                 opponentPickView.setImageResource(gameLogic.getOpponentChoice());
-                gameLogic.gameResult();
+                gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
             }
@@ -104,7 +109,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(4);
                 opponentPickView.setImageResource(gameLogic.getOpponentChoice());
-                gameLogic.gameResult();
+                gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
             }
@@ -116,7 +121,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(5);
                 opponentPickView.setImageResource(gameLogic.getOpponentChoice());
-                gameLogic.gameResult();
+                gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
 

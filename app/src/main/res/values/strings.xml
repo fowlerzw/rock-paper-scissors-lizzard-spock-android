@@ -4,6 +4,13 @@
     <string name="two_players">Two Players</string>
     <string name="game_rules">Game Rules</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="you_won">YOU WON</string>
+    <string name="you_lost">YOU LOST</string>
+    <string name="draw">DRAW</string>
+    <string name="your_turn">YOUR TURN</string>
+    <string name="play_again">PLAY AGAIN?</string>
+    <string name="computer">COMPUTER</string>
+    <string name="player">PLAYER</string>
 </resources>

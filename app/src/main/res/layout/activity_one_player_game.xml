@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="PLAYER"
+        android:text="@string/player"
         app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/player_score"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="COMPUTER"
+        android:text="@string/computer"
         app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -76,7 +76,7 @@
         android:id="@+id/game_result_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YOUR TURN"
+        android:text="@string/your_turn"
         android:layout_margin="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         />
@@ -88,7 +88,7 @@
         app:layout_constraintStart_toEndOf="@id/game_result_textView"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginLeft="16dp"
-        android:text="play again?"/>
+        android:text="@string/play_again"/>
 
     <ImageButton
         android:id="@+id/spock_button_player"
