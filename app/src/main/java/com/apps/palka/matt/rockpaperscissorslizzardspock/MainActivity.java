@@ -32,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
         twoPlayersGameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "in the making", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(getApplicationContext(), TwoPlayersActivity.class);
+                startActivity(intent);
             }
         });
 
