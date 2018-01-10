@@ -6,7 +6,10 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
+
+import android.widget.Button;
+import android.widget.ImageButton;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,11 +28,13 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
 
         //Finds views with their ids
-        ImageView choseRockButton = (ImageView) findViewById(R.id.rock_button_player);
-        ImageView chosePaperButton = (ImageView) findViewById(R.id.paper_button_player);
-        ImageView choseScissorsButton = (ImageView) findViewById(R.id.scissors_button_player);
-        ImageView choseLizardButton = (ImageView) findViewById(R.id.lizard_button_player);
-        ImageView choseSpockButton = (ImageView) findViewById(R.id.spock_button_player);
+
+        ImageButton choseRockButton = (ImageButton) findViewById(R.id.rock_button_player);
+        ImageButton chosePaperButton = (ImageButton) findViewById(R.id.paper_button_player);
+        ImageButton choseScissorsButton = (ImageButton) findViewById(R.id.scissors_button_player);
+        ImageButton choseLizardButton = (ImageButton) findViewById(R.id.lizard_button_player);
+        ImageButton choseSpockButton = (ImageButton) findViewById(R.id.spock_button_player);
+
         final TextView playerScore = (TextView) findViewById(player_score);
         final TextView opponentScore = (TextView) findViewById(R.id.computer_score);
 
