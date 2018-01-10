@@ -30,11 +30,14 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
         //Finds views with their ids
 
-        ImageButton choseRockButton = (ImageButton) findViewById(R.id.rock_button_player);
-        ImageButton chosePaperButton = (ImageButton) findViewById(R.id.paper_button_player);
-        ImageButton choseScissorsButton = (ImageButton) findViewById(R.id.scissors_button_player);
-        ImageButton choseLizardButton = (ImageButton) findViewById(R.id.lizard_button_player);
-        ImageButton choseSpockButton = (ImageButton) findViewById(R.id.spock_button_player);
+        final TextView gameResult = (TextView) findViewById(R.id.game_result_textView);
+        TextView playAgain = (TextView) findViewById(R.id.play_again_button);
+
+        final ImageButton choseRockButton = (ImageButton) findViewById(R.id.rock_button_player);
+        final ImageButton chosePaperButton = (ImageButton) findViewById(R.id.paper_button_player);
+        final ImageButton choseScissorsButton = (ImageButton) findViewById(R.id.scissors_button_player);
+        final ImageButton choseLizardButton = (ImageButton) findViewById(R.id.lizard_button_player);
+        final ImageButton choseSpockButton = (ImageButton) findViewById(R.id.spock_button_player);
 
         final TextView playerScore = (TextView) findViewById(player_score);
         final TextView opponentScore = (TextView) findViewById(R.id.computer_score);
@@ -43,7 +46,20 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
         final GameLogic gameLogic = new GameLogic();
 
-
+        /**
+         * TODO: add functionality to deactivate play button , change win / loose / your turn text
+         */
+        playAgain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                choseLizardButton.setActivated(true);
+                chosePaperButton.setActivated(true);
+                choseRockButton.setActivated(true);
+                choseScissorsButton.setActivated(true);
+                choseSpockButton.setActivated(true);
+                gameResult.setText("YOUR TURN");
+            }
+        });
 
         //action to perform while tapping rock button
         choseRockButton.setOnClickListener(new View.OnClickListener() {
@@ -108,6 +124,9 @@ public class OnePlayerGameActivity extends AppCompatActivity {
         });
 
 
+
+
     }
+
 
 }

@@ -1,6 +1,9 @@
 package com.apps.palka.matt.rockpaperscissorslizzardspock;
 
 import android.app.Application;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
@@ -45,6 +48,7 @@ public class GameLogic {
     }
 
     ;
+
 
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -121,6 +125,7 @@ public class GameLogic {
                     break;
                 case 3: //SCISSORS
                     mPlayerStat ++;
+
                     break;
                 case 4: //LIZARD
                     mPlayerStat ++;

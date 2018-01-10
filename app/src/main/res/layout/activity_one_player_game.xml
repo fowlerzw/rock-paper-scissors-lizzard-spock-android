@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="PLAYER"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/player_score"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
@@ -42,7 +42,7 @@
         android:layout_marginStart="16dp"
         android:text="0"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/computer_score"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
@@ -55,7 +55,7 @@
         android:layout_marginBottom="8dp"
         android:text="0"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/player_score" />
@@ -67,10 +67,28 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="COMPUTER"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/computer_score" />
+
+    <TextView
+        android:id="@+id/game_result_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR TURN"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/game_result_textView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="16dp"
+        android:text="play again?"/>
 
     <ImageButton
         android:id="@+id/spock_button_player"
@@ -150,6 +168,7 @@
         app:layout_constraintStart_toEndOf="@+id/opponent_pick"
         app:layout_constraintTop_toBottomOf="@+id/spock_button_player"
         app:srcCompat="@drawable/ic_stone" />
+
 
 
 </android.support.constraint.ConstraintLayout>
