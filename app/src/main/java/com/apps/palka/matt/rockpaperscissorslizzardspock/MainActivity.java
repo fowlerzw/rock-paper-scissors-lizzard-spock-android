@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         TextView onePlayerGameButton = (TextView) findViewById(R.id.one_player_game);
         //get a reference to the two players button on the main view
         TextView twoPlayersGameButton = (TextView) findViewById(R.id.two_players_game);
-        //get a reference to the gamerules button on the main view
+        //get a reference to the game rules button on the main view
         TextView gameRulesButton = (TextView) findViewById(R.id.game_rules);
 
         onePlayerGameButton.setOnClickListener(new View.OnClickListener() {
