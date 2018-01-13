@@ -84,7 +84,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
                 computerChoice.setImageResource(gameLogic.getOpponentChoice());
-                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
+                computerChoice.setColorFilter(getResources().getColor(R.color.greenOponent));
             }
         });
 
@@ -98,7 +98,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
                 computerChoice.setImageResource(gameLogic.getOpponentChoice());
-                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
+                computerChoice.setColorFilter(getResources().getColor(R.color.greenOponent));
             }
         });
 
@@ -112,7 +112,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
                 computerChoice.setImageResource(gameLogic.getOpponentChoice());
-                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer)); }
+                computerChoice.setColorFilter(getResources().getColor(R.color.greenOponent)); }
         });
 
 
@@ -128,7 +128,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
                 computerChoice.setImageResource(gameLogic.getOpponentChoice());
-                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
+                computerChoice.setColorFilter(getResources().getColor(R.color.greenOponent));
             }
         });
 
@@ -142,7 +142,7 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
                 computerChoice.setImageResource(gameLogic.getOpponentChoice());
-                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
+                computerChoice.setColorFilter(getResources().getColor(R.color.greenOponent));
             }
 
         });
