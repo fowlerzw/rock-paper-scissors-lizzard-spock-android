@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/JetDrive/PULPIT/AndroidStudioProjects/RockPaperScissorsLizzardSpock/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\narcy\\Desktop\\aplikacjeUdacity\\bledyAS\\rock-paper-scissors-lizzard-spock-android\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/matt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4090583dff7ad10299ebd79701524f69/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\narcy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2a2c62ec8bae27c73083c794dc049071\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Volumes\\JetDrive\\PULPIT\\AndroidStudioProjects\\RockPaperScissorsLizzardSpock\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\matt\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4090583dff7ad10299ebd79701524f69\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

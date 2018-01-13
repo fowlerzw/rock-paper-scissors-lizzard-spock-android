@@ -1,6 +1,7 @@
 package com.apps.palka.matt.rockpaperscissorslizzardspock;
 
 
+import android.graphics.Color;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
@@ -42,6 +43,13 @@ public class OnePlayerGameActivity extends AppCompatActivity {
 
         final ImageView opponentPickView = (ImageView) findViewById(R.id.opponent_pick);
 
+        final ImageView playerChoice = (ImageView) findViewById(R.id.playerChoice);
+        final ImageView computerChoice = (ImageView) findViewById(R.id.computerChoice);
+
+
+       //opponentPickView.setImageResource(R.drawable.ic_lizard);
+
+
         final GameLogic gameLogic = new GameLogic();
 
         //Ensures that the game starts with "Your Turn" text in game result view and play again button
@@ -75,6 +83,8 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
+                computerChoice.setImageResource(gameLogic.getOpponentChoice());
+                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
             }
         });
 
@@ -87,7 +97,8 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
-
+                computerChoice.setImageResource(gameLogic.getOpponentChoice());
+                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
             }
         });
 
@@ -100,11 +111,15 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
-            }
+                computerChoice.setImageResource(gameLogic.getOpponentChoice());
+                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer)); }
         });
+
+
 
         //action to perform while tapping lizard button
         choseLizardButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 gameLogic.setPlayerOneChoice(4);
@@ -112,6 +127,8 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
+                computerChoice.setImageResource(gameLogic.getOpponentChoice());
+                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
             }
         });
 
@@ -124,14 +141,15 @@ public class OnePlayerGameActivity extends AppCompatActivity {
                 gameLogic.gameResult(OnePlayerGameActivity.this);
                 playerScore.setText(String.valueOf(gameLogic.getPlayerStat()));
                 opponentScore.setText(String.valueOf(gameLogic.getOpponentStat()));
-
+                computerChoice.setImageResource(gameLogic.getOpponentChoice());
+                computerChoice.setColorFilter(getResources().getColor(R.color.redPlayer));
             }
+
         });
 
 
-
-
     }
+
 
 
 }

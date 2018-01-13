@@ -11,145 +11,166 @@
 
     <ImageView
         android:id="@+id/opponent_pick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:srcCompat="@drawable/ic_kolo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_kolo_gree"
+        android:padding="13dp"
         android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/rock_button_player"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/scissors_button_player"
-        app:layout_constraintTop_toBottomOf="@+id/spock_button_player" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spock_button_player"
+        android:elevation="5dp"/>
 
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/greyPrimary"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:text="@string/player"
-        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
-        app:layout_constraintEnd_toStartOf="@+id/player_score"
+        android:textAlignment="center"
+        android:textColor="@color/whitePrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lizard_button_player" />
 
 
     <TextView
         android:id="@+id/player_score"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="0"
+        android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/computer_score"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView4" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/computer_score"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
 
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
         android:text="0"
+        android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/player_score" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/player_score"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/greyPrimary"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:text="@string/computer"
-        app:layout_constraintBottom_toTopOf="@id/game_result_textView"
+        android:textAlignment="center"
+        android:textColor="@color/whitePrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/computer_score" />
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/paper_button_player" />
 
     <TextView
         android:id="@+id/game_result_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/your_turn"
         android:layout_margin="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/your_turn"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/play_again_button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/game_result_textView"
+        android:background="@color/greyPrimary"
+        android:text="@string/play_again"
+        android:textColor="@color/whitePrimary"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginLeft="16dp"
-        android:text="@string/play_again"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/spock_button_player"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/ic_kolo"
         android:contentDescription="Spock"
         android:padding="13dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/opponent_pick"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/opponent_pick"
+        app:layout_constraintTop_toBottomOf="@+id/game_result_textView"
         app:srcCompat="@drawable/ic_spock" />
 
     <ImageButton
         android:id="@+id/paper_button_player"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_kolo"
         android:contentDescription="Paper"
         android:padding="13dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/lizard_button_player"
-        app:layout_constraintTop_toBottomOf="@+id/opponent_pick"
+
+        app:layout_constraintEnd_toEndOf="@+id/rock_button_player"
+        app:layout_constraintTop_toBottomOf="@+id/rock_button_player"
         app:srcCompat="@drawable/ic_paper" />
 
     <ImageButton
         android:id="@+id/lizard_button_player"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_kolo"
         android:contentDescription="Lizard"
         android:padding="13dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/paper_button_player"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/opponent_pick"
+        app:layout_constraintStart_toStartOf="@+id/scissors_button_player"
+        app:layout_constraintTop_toBottomOf="@+id/scissors_button_player"
         app:srcCompat="@drawable/ic_lizard" />
 
     <ImageButton
         android:id="@+id/scissors_button_player"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_kolo"
         android:contentDescription="Scissors"
         android:padding="13dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/opponent_pick"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spock_button_player"
         app:srcCompat="@drawable/ic_scissors" />
 
@@ -157,18 +178,41 @@
         android:id="@+id/rock_button_player"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_kolo"
         android:contentDescription="Rock"
         android:padding="13dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/opponent_pick"
         app:layout_constraintTop_toBottomOf="@+id/spock_button_player"
         app:srcCompat="@drawable/ic_stone" />
 
+    <ImageView
+        android:id="@+id/computerChoice"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/play_again_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/playerChoice"
+        app:layout_constraintTop_toBottomOf="@+id/computer_score"
+        app:srcCompat="@drawable/ic_kolo_gree" />
+
+    <ImageView
+        android:id="@+id/playerChoice"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/play_again_button"
+        app:layout_constraintEnd_toStartOf="@+id/computerChoice"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_score"
+        app:srcCompat="@drawable/ic_kolo" />
 
 
 </android.support.constraint.ConstraintLayout>
