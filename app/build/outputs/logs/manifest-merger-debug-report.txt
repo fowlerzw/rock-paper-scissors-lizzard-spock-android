@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5cafa6fbfd5c56347f111d47c3cff767\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:3:5-64
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:5:5-30:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5cafa6fbfd5c56347f111d47c3cff767\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5cafa6fbfd5c56347f111d47c3cff767\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:9:9-53
+	android:icon
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:7:9-48
+	android:allowBackup
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.apps.palka.matt.rockpaperscissorslizzardspock.MainActivity
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:14:13-61
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.apps.palka.matt.rockpaperscissorslizzardspock.OnePlayerGameActivity
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:21:9-24:58
+	android:parentActivityName
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:24:13-55
+	android:label
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:22:13-50
+activity#com.apps.palka.matt.rockpaperscissorslizzardspock.RulesActivity
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:25:9-28:58
+	android:parentActivityName
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:28:13-55
+	android:label
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:27:13-39
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:26:13-42
+activity#com.apps.palka.matt.rockpaperscissorslizzardspock.TwoPlayersActivity
+ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:29:9-65
+	android:name
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml:29:19-53
+uses-sdk
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5cafa6fbfd5c56347f111d47c3cff767\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5cafa6fbfd5c56347f111d47c3cff767\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\narcy\Desktop\aplikacjeUdacity\bledyAS\rock-paper-scissors-lizzard-spock-android\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d5b4ef555ee9b83c1de5400920855ade\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d3912d4e64a2d8db739d3706a0749b24\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\cca381975e26ecaf5d56db155fa358e2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2f7f8df297c9e8c39b7fa59360d93c63\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5e57a624d54dd376e8cc677eb466636e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d5b97b41e1c61de88ba9b5975c16e6b1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b40f222fdb1e0b909db4073f9377b36d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2e4b254acf68fe408230e9ffc25075b7\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a2c62ec8bae27c73083c794dc049071\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\narcy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b599777a93f11ee3a8ed2a55257a2e88\AndroidManifest.xml:26:13-58
