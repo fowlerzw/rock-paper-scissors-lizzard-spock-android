@@ -44,13 +44,13 @@ public class GameLogic {
         return mPlayerStat;
     }
 
-    ;
+
 
     public int getOpponentStat() {
         return mOpponentStat;
     }
 
-    ;
+
 
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
